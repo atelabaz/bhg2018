@@ -1,6 +1,8 @@
 ---
 # Introductory Python Course
 ## Part 1
+Dana Scarinci Zabaleta
+
 ---
 ## In this first part, we will
 * Review basic Python (2.7)
@@ -49,6 +51,7 @@ with open(FILE, "r") as src:
     header = src.readline() # read first line
     data = src.readlines() # read rest
 ```
+
 ---
 ### Lists
 The **variable** *data* is storing a **list** of strings. Each string is a line of the original file.
@@ -242,7 +245,7 @@ def splitRow(row):
 ```
 
 ---
-### Fill the dictionary (4)
+### Populate the dictionary (4)
 
 ```{Python}
 for row in data:
@@ -301,8 +304,6 @@ def totalByLevel(category):
     return byCategory
 
 ```
-
-**SCOPE**
 
 ---
 
